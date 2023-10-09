@@ -15,8 +15,8 @@ float duration_us, distance_cm;
 int functionMode = 1;
 
 //Declared Valuable for Wifi and MQTT connection
-const char *ssid = "Touynoy";
-const char *password = "SK799514";
+const char *ssid = "";            //add your SSID( wifi name )
+const char *password = "";        //add your password
 const char *mqtt_server = "broker.hivemq.com";
 const char *mqtt_topic = "soundtouy";
 
